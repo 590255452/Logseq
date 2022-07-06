@@ -32,7 +32,7 @@
  :start-of-week 6
 
 =======
->>>>>>> 6e572a9fa3b9b6606fa0ab5f9c3d40221c9ecec1
+>>>>>>> c07521f931429cba296094e5760418aff99af56c
  ;; Specify a custom CSS import
  ;; This option take precedence over your local `logseq/custom.css` file
  ;; You may find a list of awesome logseq themes here:
@@ -103,7 +103,7 @@
  :shortcuts {:editor/highlight "ctrl+shift+h", :editor/up "up", :editor/down "down"}
 =======
  :shortcuts {}
->>>>>>> 6e572a9fa3b9b6606fa0ab5f9c3d40221c9ecec1
+>>>>>>> c07521f931429cba296094e5760418aff99af56c
 
  ;; By default, pressing `Enter` in the document mode will create a new line.
  ;; Set this to `true` so that it's the same behaviour as the usual outliner mode.
@@ -188,7 +188,7 @@
  :editor/logical-outdenting? true
  :publishing/all-pages-public? false
 =======
->>>>>>> 6e572a9fa3b9b6606fa0ab5f9c3d40221c9ecec1
+>>>>>>> c07521f931429cba296094e5760418aff99af56c
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5
@@ -230,5 +230,5 @@
  ;; {:text "[[quick capture]] **{time}**: \n - {text} from {url}"
  ;;  :media "[[quick capture]] **{time}**: \n - {url}"}
 =======
->>>>>>> 6e572a9fa3b9b6606fa0ab5f9c3d40221c9ecec1
+>>>>>>> c07521f931429cba296094e5760418aff99af56c
  }
