@@ -26,10 +26,13 @@
 
  :feature/enable-block-timestamps? false
 
+<<<<<<< HEAD
  ;; Specify the date on which the week starts.
  ;; Goes from 0 to 6 (Monday to Sunday), default to 6
  :start-of-week 6
 
+=======
+>>>>>>> c07521f931429cba296094e5760418aff99af56c
  ;; Specify a custom CSS import
  ;; This option take precedence over your local `logseq/custom.css` file
  ;; You may find a list of awesome logseq themes here:
@@ -96,7 +99,11 @@
  ;;  :editor/down            ["ctrl+j" "down"]
  ;;  :editor/left            ["ctrl+h" "left"]
  ;;  :editor/right           ["ctrl+l" "right"]}
+<<<<<<< HEAD
+ :shortcuts {:editor/highlight "ctrl+shift+h", :editor/up "up", :editor/down "down"}
+=======
  :shortcuts {}
+>>>>>>> c07521f931429cba296094e5760418aff99af56c
 
  ;; By default, pressing `Enter` in the document mode will create a new line.
  ;; Set this to `true` so that it's the same behaviour as the usual outliner mode.
@@ -176,6 +183,12 @@
  :ref/default-open-blocks-level 2
 
  :ref/linked-references-collapsed-threshold 50
+<<<<<<< HEAD
+ :favorites ["画" "求学" "荒漠" "阿修罗" "娈童"]
+ :editor/logical-outdenting? true
+ :publishing/all-pages-public? false
+=======
+>>>>>>> c07521f931429cba296094e5760418aff99af56c
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5
@@ -203,6 +216,7 @@
 
  ;; ignore #+keyword: for parsing page references in orgmode
  ;; :ignored-page-references-keywords #{"author" "startup"}
+<<<<<<< HEAD
  
  ;; Quick capture templates on mobile for recieving contents from other apps.
  ;; Each template contains three elements {time}, {text} and {url}, which can be auto-expanded
@@ -215,4 +229,6 @@
  ;; :quick-capture-templates
  ;; {:text "[[quick capture]] **{time}**: \n - {text} from {url}"
  ;;  :media "[[quick capture]] **{time}**: \n - {url}"}
+=======
+>>>>>>> c07521f931429cba296094e5760418aff99af56c
  }
